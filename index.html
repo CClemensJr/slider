@@ -3,27 +3,25 @@
 <head>
   <title>jQuery Sliders</title>
   <link rel="stylesheet" href="css/slider.css">
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 </head>
 <body>
 
 <div class="wrapper">
   <div id="slider">
-    <img src="images/IMG_0347.JPG">
-    <img src="images/IMG_0348.JPG">
-    <img src="images/IMG_0357.JPG">
-    <img src="images/IMG_0358.JPG">
-    <img src="images/IMG_0359.JPG">
-    <img src="images/IMG_0360.JPG">
+    <img id="1" src="images/IMG_0347.JPG">
+    <img id="2" src="images/IMG_0348.JPG">
+    <img id="3" src="images/IMG_0357.JPG">
+    <img id="4" src="images/IMG_0358.JPG">
+    <img id="5" src="images/IMG_0359.JPG">
+    <img id="6" src="images/IMG_0360.JPG">
   </div>
 
-  <a href="#" class="left">Previous</a>
-  <a href="#" class="right">Next</a>
+  <a href="#" class="left" onclick="prev(); return false;">Previous</a>
+  <a href="#" class="right"onclick="next(); return false;">Next</a>
 </div>
 
 <script src="js/jquery.js"></script>
-<script src="js/slide.js"></script>
+<script src="js/slider.js"></script>
 
 </body>
 </html>
